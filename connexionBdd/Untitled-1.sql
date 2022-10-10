@@ -1,0 +1,1 @@
+SELECT * FROM bibliotheque_ead.admin

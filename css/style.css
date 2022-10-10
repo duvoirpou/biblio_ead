@@ -1,0 +1,49 @@
+body{
+		font-family:"Times New Roman", Georgia, Times, serif;
+	}
+
+
+
+.bgc{
+   background-color: #294E79;
+}
+
+.panneau{
+   background-color: #294E79;
+}
+
+.bgch{
+    background-color: #3D73B1;
+     color: #fff
+}
+
+
+
+
+
+@media print{
+    body{
+        /*width: 400px;*/
+        /*font-size: 1em;*/
+    }
+    
+    #img, #action, #imprimer, .lien, .suppr, #tabOuvr_filter, .tabOuvr_filter, #tabOuvr_paginate, .pied, #tabOuvr_length{
+        display: none;
+    }
+    
+    #tabDocs_filter, .tabDocs_filter, #tabDocs_paginate, #tabDocs_length{
+        display: none;
+    }
+    
+    #tabOuvr tr td:last-child{
+        display: none;
+    }
+    
+   #tabDocs tr td:last-child{
+        display: none;
+    }
+    
+    div #tabOuvr, div #tabDocs{
+        width: 100%;
+    }
+}

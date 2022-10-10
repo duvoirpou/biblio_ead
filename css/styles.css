@@ -1,0 +1,50 @@
+.social-icon{
+    padding: 45px 0px;
+}
+.social-icon li{
+    margin-left: 10px;
+}
+.social-icon li a{
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid #cacaca;
+}
+
+.social-icon li.facebook a{
+    color: #4267b2;
+}
+.social-icon li.facebook a:hover{
+    background: #4267b2;
+}
+.social-icon li.twitter a{
+    color: #1da1f2;
+}
+.social-icon li.twitter a:hover{
+    background: #1da1f2;
+}
+.social-icon li.google-plus a{
+    color: #dd4e42;
+}
+.social-icon li.google-plus a:hover{
+    background: #dd4e42;
+}
+.social-icon li.linkedin a{
+    color: #0077b5;
+}
+.social-icon li.linkedin a:hover{
+    background: #0077b5;
+}
+.social-icon li.youtube a{
+    color: #ff0000;
+}
+.social-icon li.youtube a:hover{
+    background: #ff0000;
+}
+.social-icon li a:hover{
+    color: #fff;
+    border:1px solid #fff;
+}
